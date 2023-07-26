@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MusicGuru - Your Playlist your choice of Music</title>
+   <link rel="stylesheet" href="app.css">
+   <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/1cfc331bb4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <nav>
+      <ul>
+         <li class="brand"><img src="logo.jpg" alt="MusicGuru">MusicGuru</li>
+         <li>Home</li>
+         <li>About</li>
+         <li>Login</li>
+         <li>SignUp</li>
+      </ul>
+   </nav>
+
+   <div class="container">
+      <div class="songList">
+         <h1>Best Of KK</h1>
+         <div class="songItemContainer">
+            <div class="songItem">
+               <img src="covers/1.jpg" alt="1">
+               <span class="songName">Ajab Si (Om Shanti Om)</span>
+               <span class="songlistplay"><span class="timestamp">04:01 <i id="0" class="fa-solid songItemPlay fa-circle-play 
+                        "></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/2.jpg" alt="2">
+               <span class="songName">Aye Bekhabar (Zeher)</span>
+               <span class="songlistplay"><span class="timestamp">05:43 <i id="1"
+                        class="fa-solid songItemPlay fa-circle-play "></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/3.jpg" alt="3">
+               <span class="songName">Beetein Lamhein (Live-The Train)</span>
+               <span class="songlistplay"><span class="timestamp">04:58 <i id="2"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/4.jpg" alt="4">
+               <span class="songName">Dil Kyun Yeh Mera (Kites)</span>
+               <span class="songlistplay"><span class="timestamp">05:33 <i id="3"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/5.jpg" alt="5">
+               <span class="songName">Dil Nashin Dil Nashin (Aashiq Banaya Aapne)</span>
+               <span class="songlistplay"><span class="timestamp">06:32 <i id="4"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/6.jpg" alt="6">
+               <span class="songName">Dus Bahane (Dus)</span>
+               <span class="songlistplay"><span class="timestamp">03:26 <i id="5"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/7.jpg" alt="7">
+               <span class="songName">Khuda Jaane (Bachna Ae Haseeno)</span>
+               <span class="songlistplay"><span class="timestamp">05:33 <i id="6"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/8.jpg" alt="8">
+               <span class="songName">Saanson Ke (Raees)</span>
+               <span class="songlistplay"><span class="timestamp">08:11 <i id="7"
+                        class="fa-solid songItemPlay fa-circle-play">
+                     </i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/9.jpg" alt="9">
+               <span class="songName">Tu Hi Meri Shab Hai (Gangster)</span>
+               <span class="songlistplay"><span class="timestamp">06:11 <i id="8"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+               <img src="covers/10.jpg" alt="10">
+               <span class="songName">Tujhe Sochta Hoon (Jannat )</span>
+               <span class="songlistplay"><span class="timestamp">05:13 <i id="9"
+                        class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="songBannner"></div>
+   </div>
+
+   <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" value='0' max="100">
+      <div class="icons">
+         <i class="fa-2x fa-solid fa-backward" id="previous"></i>
+         <i class="fa-2x fa-solid fa-circle-play" id="masterPlay"></i>
+         <i class="fa-2x fa-solid fa-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+         <img src="3RA9.gif" alt="" id="gif"> <span id="masterSongName">Ajab Si (Om Shanti Om) - K.K</span>
+      </div>
+   </div>
+
+
+   <script src="app.js"></script>
+</body>
+
+</html>
